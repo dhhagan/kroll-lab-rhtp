@@ -10,7 +10,7 @@
 #include "LiquidCrystal.h"
 
 Adafruit_BMP085 bmp;
-LiquidCrystal lcd(D4, D6, A0, D2, D3, D5);
+LiquidCrystal lcd(D4, D6, D7, D2, D3, D5);
 
 double TEMP, PRESSURE;
 int FLAG;
